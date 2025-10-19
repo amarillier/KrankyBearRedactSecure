@@ -1,0 +1,35 @@
+# Binaries
+redactsecure
+redactsecure-decrypt
+redactsecure.exe
+redactsecure-decrypt.exe
+redactsecure-*
+*.exe
+build/
+git.txt
+*.xlsx
+*.pptx
+*.docx
+test/*
+
+# Go build artifacts
+*.o
+*.a
+*.so
+
+# Test files
+test/*_modified.*
+test/*.enc
+test/*.decrypted
+test_extracted/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
