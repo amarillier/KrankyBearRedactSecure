@@ -1,8 +1,10 @@
 # Binaries
 redactsecure
 redactsecure-decrypt
+redactsecure-encrypt
 redactsecure.exe
 redactsecure-decrypt.exe
+redactsecure-encrypt.exe
 redactsecure-*
 *.exe
 build/
@@ -10,14 +12,18 @@ git.txt
 *.xlsx
 *.pptx
 *.docx
-test/*
+*.enc
+
 
 # Go build artifacts
 *.o
 *.a
 *.so
+# allow bin build directory
+!bin/*
 
 # Test files
+test/*
 test/*_modified.*
 test/*.enc
 test/*.decrypted

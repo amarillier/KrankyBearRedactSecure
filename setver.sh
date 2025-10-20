@@ -20,8 +20,12 @@ else
 fi
 
 echo "version: $ver"
-echo "main.go"
-sed -i '' "s/appVersion = \".*\"/appVersion = \"$ver\"/" main.go
+echo "cmd/redactsecure/main.go"
+sed -i '' "s/appVersion = \".*\"/appVersion = \"$ver\"/" cmd/redactsecure/main.go
+echo "version: $ver"
+echo "cmd/redactsecure-decrypt/main.go"
+sed -i '' "s/appVersion = \".*\"/appVersion = \"$ver\"/" cmd/redactsecure-decrypt/main.go
+
 
 echo "FyneApp.toml"
 sed -i '' "s/Version = \".*\"/Version = \"$ver\"/" FyneApp.toml

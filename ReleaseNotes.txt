@@ -1,0 +1,14 @@
+Release notes
+
+0.2.NEXT
+- nothing specific planned for now
+
+0.2.0
+- add auto extension detection when decrypting
+- add delete after encryption option
+- add separate encrypt utility
+- other minor updates
+
+0.1.0 
+- initial checkin
+- Windows, Linux and MacOS notifications

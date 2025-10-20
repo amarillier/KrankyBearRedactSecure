@@ -199,7 +199,7 @@ The encrypted file structure:
 - **File Permissions**: Encrypted files use standard file permissions (0644)
 
 ### File Safety
-- Original files are never modified - a new file is always created
+- Original files are never modified - a new file is always created, except when the -delete flag is used with encryption. Use with caution!
 - Default naming:
   - Replace: `filename_modified.ext`
   - Encrypt: `filename.ext.enc`
