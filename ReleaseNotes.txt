@@ -3,12 +3,18 @@ Release notes
 0.2.NEXT
 - nothing specific planned for now
 
-0.2.0
+Version 0.2.1 - June 23, 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Go package security updates identified by Dependabot
+
+Version 0.2.0 - October 21, 2025
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - add auto extension detection when decrypting
 - add delete after encryption option
 - add separate encrypt utility
 - other minor updates
 
-0.1.0 
+Version 0.1.0 - October 20, 2025
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - initial checkin
 - Windows, Linux and MacOS notifications
