@@ -19,8 +19,8 @@ git.txt
 *.o
 *.a
 *.so
-# allow bin build directory
-!bin/*
+# do not allow bin build directory
+bin/*
 
 # Test files
 test/*
